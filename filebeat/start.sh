@@ -8,5 +8,5 @@ docker run -d \
   --volume="$(pwd)/test:/usr/share/filebeat/test" \
   --name filebeat \
   docker.elastic.co/beats/filebeat:7.10.2 filebeat -e -strict.perms=false \
-  -E output.logstash.hosts=["172.20.0.1:5044"]
+  -E output.logstash.hosts=["logstash:5044"]
 

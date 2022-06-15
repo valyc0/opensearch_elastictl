@@ -14,5 +14,5 @@ services:
       - mynet
 
 networks:
-  mynet:
-    external: true    
+     mynet:
+       external: true    
