@@ -1,2 +1,2 @@
 # opensearch_elastictl
-with nginx local and elastictl
+with filebeat logstash nginx local and elastictl
